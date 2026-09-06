@@ -419,9 +419,10 @@ PPT-Design-Skill/
 │   ├── agents/openai.yaml
 │   ├── references/
 │   └── scripts/
-├── docs/assets/cases/
-│   ├── contact-sheet.png
-│   └── representative slide previews
+├── docs/
+│   ├── README_EN.md
+│   ├── usage-guide.md
+│   └── regression_acceptance/
 ├── examples/new_examplex/
 │   └── six maintained case-study packages
 ├── installer/
