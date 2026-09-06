@@ -10,6 +10,7 @@ examples/output/
 output/
 render_*/
 ppt_tasks/
+research_competitor_ppt_styles/
 
 # Keep only the final rendered artifacts for the reproducible evaluation set.
 evals/*/output/
