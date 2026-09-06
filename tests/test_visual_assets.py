@@ -11,7 +11,7 @@ ROOT = Path(__file__).resolve().parents[1]
 
 def test_all_declared_pack_assets_match_their_index() -> None:
     index = load_json(ROOT / "skill/references/visual-rendering-packs/rendering_packs_index.json")
-    assert len(index["packs"]) == 2
+    assert len(index["packs"]) == 3
     for item in index["packs"]:
         asset = load_json(ROOT / item["path"])
         assert asset["pack_id"] == item["pack_id"]

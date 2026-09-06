@@ -44,7 +44,9 @@ function renderViewer() {
   document.getElementById('case-category').textContent = `${project.category} / ${project.year}`;
   document.getElementById('case-title').textContent = project.title;
   document.getElementById('case-description').textContent = project.description;
-  document.getElementById('case-details').innerHTML = [['视觉方向', project.direction], ['页数', `${project.slides.length} 页`], ['生成模式', project.mode]].map(([k,v]) => `<div class="detail"><span>${k}</span><strong>${v}</strong></div>`).join('');
+  const details = [['视觉方向', project.direction], ['页数', `${project.slides.length} 页`], ['生成模式', project.mode]];
+  if (project.status) details.unshift(['状态', project.status]);
+  document.getElementById('case-details').innerHTML = details.map(([k,v]) => `<div class="detail"><span>${k}</span><strong>${v}</strong></div>`).join('');
   document.getElementById('download-pptx').href = project.pptx;
   document.getElementById('download-pdf').href = project.pdf;
   const thumbs = document.getElementById('thumbs');

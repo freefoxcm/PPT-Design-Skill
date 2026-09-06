@@ -28,3 +28,15 @@ to a repeated card grid.
 - Representative pages P01, P03, and P07 were visually reviewed at 1280 × 720.
 - Full formal scoring and second-reviewer sign-off remain pending; the related
   The three Louvre Prototype records are eligible for the runtime candidate set; Pack and visual acceptance gates remain separate concerns.
+
+## Revision 4 — re-audit correction
+
+- The full-page re-audit found a systematic page-number issue: slides 2, 6, 7,
+  8, and 9 rendered their two-digit markers as vertically split characters,
+  caused by undersized page-number text boxes.
+- The affected text boxes were enlarged and moved upward in `build.py`; the
+  deck was regenerated and rendered again.
+- Slides 2, 6, 7, 8, and 9 were rechecked at 1280 × 720 and now show complete
+  two-digit markers.
+- This correction supersedes the earlier representative-page-only claim; full
+  formal scoring and second-reviewer sign-off remain pending.

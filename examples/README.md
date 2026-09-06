@@ -20,8 +20,10 @@ images, and downloadable files are defined in
 | Vertical City Retrofit | 14 | Urban retrofit strategy, systems thinking, phasing, and investment decisions | [Open](new_examplex/vertical_city_retrofit/) |
 | COUTURE COLOR — Objects of Desire | 10 | Luxury beauty editorial, product-in-use imagery, editable product geometry, and material storytelling | [Open](new_examplex/couture_lipstick_atelier/) |
 
-Together, these six projects provide seventy reviewed slides across technical,
-data, scientific, cultural, urban-strategy, and luxury-beauty presentation domains.
+Together, the five approved benchmark projects provide fifty-eight reviewed
+slides across technical, scientific, cultural, urban-strategy, and
+luxury-beauty domains. AI Infrastructure Economics remains in the library as
+a historical excluded case and is not used as benchmark evidence.
 
 ## What a complete case includes
 

@@ -1,0 +1,16 @@
+{
+  "record_id": "ai-infra-visual-direction-v1",
+  "status": "PASS",
+  "slides": 3,
+  "render": "PPTX -> PDF -> PNG",
+  "requirements": {
+    "R1": "PASS",
+    "R2": "PASS",
+    "R3": "PASS",
+    "R4": "PASS",
+    "R5": "PASS",
+    "R6": "PASS",
+    "R7": "PASS"
+  },
+  "note": "Direction prototype only; not yet the final 12-page case."
+}

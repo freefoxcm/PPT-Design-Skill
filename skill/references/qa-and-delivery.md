@@ -18,6 +18,16 @@ Before visual review:
 
 Run `skill/scripts/inspect_pptx.py` for a compact report.
 
+For scientific or clinical research decks, also run:
+
+```powershell
+python skill/scripts/check_scientific_baseline.py output/deck.pptx
+```
+
+This catches slide-count, 16:9, page-number, source-attribution, and
+below-12-pt text risks. Warnings still require PNG inspection; this check is
+not a substitute for visual review.
+
 ## Confirmed render path
 
 Run on Windows:

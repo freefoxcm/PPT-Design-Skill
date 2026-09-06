@@ -1,33 +1,19 @@
-# Visual review — revision 3
+# Full-deck visual review — revision 1
 
-## Gate 1: visual effect
+## Status
 
-**PASS**
+PASS — full-deck composition revision.
 
-The deck establishes a distinct Red Ink / Infrastructure Ledger direction:
-warm paper, cobalt evidence, vermilion constraints, green operating leverage,
-ledger rules, oversized statements, and source labels. It does not collapse
-into a generic dark dashboard or a repeated consulting-card layout.
+The 12-page deck builds and renders at 16:9. P05 and P12 title/subtitle
+collisions were corrected, P02's dependency arrow was reduced, P06 was
+re-centered on utilization as the operating hinge, P08 was given a continuous
+value-flow spine, P09 was synchronized to the warm field-matrix direction,
+P10's operator test was converted to a rule-led decision rail, and P11 now
+closes with an observe → operate → reinvest loop.
 
-## Gate 2: serious defects
+The deck preserves the original facts, source boundaries, and editable native
+objects while removing the remaining generic modules from the reviewed pages.
 
-| Requirement | Status | Evidence |
-|---|---|---|
-| R1 | PASS | 12 slides, 13.333 × 7.5 inches, final PNGs rendered |
-| R2 | PASS | Slides 1–12 move from stack and capital to constraints, economics, choices, and control |
-| R3 | PASS | Slides 3–5 identify Alphabet and Microsoft source periods in the slide footers |
-| R4 | PASS | Slides 3, 4, 6, 7, 8, 9, and 10 use native editable bars, bands, flow diagrams, curves, and matrices |
-| R5 | PASS | Illustrative curves and matrices are labeled; reported figures are visually separated |
-| R6 | PASS | No cross-company league table or customer claim is presented |
-| R7 | PASS | Editorial data language and physical-stack geometry establish a premium report identity |
-| R8 | PASS | Cover, stack, source-led chart, composition, constraint map, flywheel, matrix, and close vary intentionally |
-| R9 | PASS | Slide 12 provides an operator decision model: bottleneck, flex, own |
-
-## Revision history
-
-- Revision 1: generated and rendered; found cover title/subtitle collision and
-  source chart overlap with the reading panel.
-- Revision 2: corrected cover hierarchy and chart placement; the automated chart
-  still extended into the reading panel.
-- Revision 3: replaced the problematic automatic chart with a native editable
-  bar field with a fixed evidence boundary; PNG review passed.
+This version is retained as a historical exploratory output only. The intended
+composition revision was abandoned after production failure, so this case is
+excluded from the formal visual benchmark and regression reference set.

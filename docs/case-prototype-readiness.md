@@ -11,7 +11,7 @@
 | `vertical-city-retrofit` | brief、visual direction、page plan、acceptance contract、完整 PNG、`output/*.pptx`、`output/*.pdf`、Recipe、object map | — | `PASS` |
 | `car-t-single-cell-paper` | brief、visual direction、page plan、acceptance contract、论文图片素材、完整 PNG、`output/*.pptx`、`output/*.pdf`、Recipe、object map | — | `PASS` |
 | `louvre-abudhabi` | brief、visual direction、page plan、README、完整 PNG、`output/*.pptx`、`output/*.pdf`、ASSET_CREDITS、Recipe、object map | — | `PASS` |
-| `ai-infrastructure-economics` | brief、visual direction、page plan、acceptance contract、完整 PNG、`output/*.pptx`、`output/*.pdf`、Recipe、object map | — | `PASS` |
+| `ai-infrastructure-economics` | brief、visual direction、page plan、完整 PNG、`output/*.pptx`、`output/*.pdf`、Recipe、object map | composition 修订制作失败；不计入 benchmark/reference set | `EXCLUDED` |
 | `couture-lipstick-atelier` | brief、visual direction、page plan、README、完整 PNG、`output/*.pptx`、`rendered/*.pdf`、ASSET_CREDITS、图片素材、Recipe、object map | — | `PASS` |
 | `ai-agent-operating-system` | brief、visual direction、page plan、README、完整 PNG、`output/*.pptx`、`output/*.pdf`、Recipe、object map | — | `PASS` |
 

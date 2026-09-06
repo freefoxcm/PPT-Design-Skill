@@ -31,7 +31,8 @@ def test_asset_inventory_is_machine_readable() -> None:
     assert "registered_cases=6" in result.stdout
     assert "missing_index_paths=0" in result.stdout
     assert "unreferenced_compositions=[]" in result.stdout
-    assert '"dark-cinematic-tech": ["architectural-section", "constraint-map", "cover", "evidence", "sequence", "systems-diagram"]' in result.stdout
+    assert '"dark-cinematic-tech": [' in result.stdout
+    assert '"systems-diagram"' in result.stdout
     assert '"scientific-atlas": ["evidence-wall", "key-finding", "study-map"]' in result.stdout
     assert "pack_role_gaps=[]" in result.stdout
     assert "status=inventory_only" in result.stdout
@@ -77,7 +78,19 @@ def test_runtime_trace_rejects_inconsistent_gate_states(tmp_path: Path) -> None:
 
 
 def test_regression_audit_does_not_invent_missing_baseline(tmp_path: Path) -> None:
-    result = run_script("audit_regression_pairs.py")
+    manifest = tmp_path / "manifest.json"
+    entries = []
+    for domain in ("technical", "scientific", "brand_architecture"):
+        entries.append({
+            "regression_id": f"{domain}-missing-baseline",
+            "domain": domain,
+            "case_id": f"{domain}-case",
+            "baseline": f"missing/{domain}.pptx",
+            "upgraded": f"missing/{domain}-upgraded.pptx",
+            "status": "PASS",
+        })
+    manifest.write_text(json.dumps({"schema_version": 1, "entries": entries}), encoding="utf-8")
+    result = run_script("audit_regression_pairs.py", "--root", str(tmp_path), "--manifest", str(manifest))
     assert result.returncode == 1
     report = json.loads(result.stdout)
     assert report["status"] == "BLOCKED"

@@ -19,7 +19,7 @@
 
 Python 运行成功不是完成条件。PNG 视觉检查通过后才可以进入最终交付。
 
-当前示例适用于 `pptx-designer 1.0.0b10`。仓库维护 6 个完整案例，覆盖技术架构、基础设施研究、
+当前示例适用于 `pptx-designer 1.0.0b10`。仓库维护 5 个正式 benchmark 案例，另保留 1 个被排除的历史案例，覆盖技术架构、
 科学叙事、建筑文化、城市策略和高定美妆编辑。案例库见
 [examples/README.md](../examples/README.md)，在线预览与下载见
 [案例画廊](https://sunchaokun.github.io/PPT-Design-Skill/)。

@@ -1,7 +1,7 @@
-# Object map — AI infrastructure P05 constraint map
+# Object map — AI infrastructure economics v2
 
-- Native text: title, subtitle, four system labels, annotations, interpretation, and source note.
-- Native shapes: system blocks, connectors, dividers, and emphasis rules.
-- Raster evidence: none required; the argument is carried by editable diagram geometry.
-- Forbidden replacement: do not flatten the constraint map or source note into a screenshot.
-- Reopen check: inspect the output PPTX and confirm native text and auto-shapes remain present.
+- Native text: titles, subtitles, metadata, page numbers, source notes, labels, and conclusions.
+- Native shapes: stack bands, rules, arrows, matrix fields, decision rails, and feedback spine.
+- Raster evidence: none required; the case is carried by editable diagram geometry.
+- Forbidden replacement: do not flatten the pages into screenshots.
+- Reopen check: inspect the output PPTX and confirm native text boxes and auto-shapes remain present.

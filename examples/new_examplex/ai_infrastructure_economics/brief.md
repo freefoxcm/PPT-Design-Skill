@@ -1,33 +1,20 @@
-# Flagship Case 005: AI Infrastructure Economics
+# Brief
 
-## Brief
+Audience: strategy and platform operators.
+Scenario: a 12-page English editorial report for a strategy review or operator workshop.
+Language: English.
+Purpose: explain why AI infrastructure economics is governed by physical capacity, utilization, lead time, and operating control rather than compute alone.
+Duration and page count: 8–12 minutes, 12 pages, 16:9.
+Source material: source-led illustrative systems analysis; source notes are visible in the deck and claims are not presented as audited market forecasts.
+Brand, image, data, and editability constraints: warm paper field, cobalt / vermilion / green semantic accents, native text and shapes, no fabricated commercial metrics, and diagrams that remain editable in PowerPoint.
 
-Create a 12-page, 16:9 English editorial data report titled **AI
-Infrastructure Economics** for strategy leaders, investors, and platform
-operators. The report should explain why the AI infrastructure race is not a
-single market, how capital flows through the stack, and where physical
-constraints change the economics.
+## Visual thesis
 
-## Core thesis
+Treat infrastructure as an operating system made of physical dependencies: power, place, compute, platform, and application. The visual language should feel like a premium infrastructure ledger rather than a dashboard template.
 
-**Capital moves first. Constraints decide what ships.**
+## Outcome
 
-The story must progress from evidence to interpretation: capex is accelerating,
-but value is constrained by the full stack — accelerators, systems, data
-centers, energy, networking, software, and utilization.
+What must the audience understand, remember, feel, or do?
 
-## Data boundary
+The audience should immediately see infrastructure as a physical system, understand that the slowest layer sets the clock, and read risk as the joint function of lead time and utilization.
 
-Public figures are taken from company investor disclosures and labeled by
-company and fiscal period. Cross-company comparisons are not presented as a
-single-period league table. Conceptual curves, scenario matrices, and operator
-scorecards are explicitly labeled illustrative.
-
-## Required capability proof
-
-- Native editable charts, tables, diagrams, and annotations;
-- A clear data-report narrative rather than a collection of charts;
-- Visual treatment that is editorial and premium, not a generic dashboard;
-- Source notes and evidence boundaries visible on the relevant pages;
-- At least four distinct page architectures;
-- A final strategic decision framework for operators.

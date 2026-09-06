@@ -8,7 +8,7 @@
       "baseline": "examples/regression_baselines/technical-infrastructure/baseline.pptx",
       "upgraded": "examples/new_examplex/ai_infrastructure_economics/output/ai_infrastructure_economics.pptx",
       "status": "PASS",
-      "reason": "independent neutral baseline with controls.json"
+      "reason": "historical structural regression control only; excluded from the formal visual benchmark"
     },
     {
       "regression_id": "scientific-evidence",

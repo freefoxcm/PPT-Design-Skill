@@ -4,7 +4,7 @@ PPT Design Skill is a brief-first presentation design workflow powered
 by the published [`pptx-designer`](https://pypi.org/project/pptx-designer/)
 Python library.
 
-Current release: `1.1`
+Current release: `1.4`
 
 The library generates the editable PPTX. The skill is responsible for the
 design process and quality gate:
@@ -131,9 +131,10 @@ the deck “looks good” is not sufficient.
 
 ## Reviewed case studies
 
-The repository maintains six complete, reviewed case studies. Each package
-includes a reproducible source, editable PPTX, PDF export, PNG review evidence,
-and a written visual-direction and acceptance record.
+The repository maintains six complete case studies. Five are approved as formal
+design benchmarks. Each package includes a reproducible source, editable PPTX,
+PDF export, PNG review evidence, and a written visual-direction and acceptance
+record. The benchmark set is intentionally smaller than the full case library.
 
 | Case | Pages | Design domain |
 |---|---:|---|
@@ -143,6 +144,10 @@ and a written visual-direction and acceptance record.
 | Louvre Abu Dhabi | 10 | Architecture and culture |
 | Vertical City Retrofit | 14 | Urban strategy |
 | COUTURE COLOR — Objects of Desire | 10 | Luxury beauty editorial |
+
+AI Infrastructure Economics remains a complete case in the library. It is not
+part of the formal design benchmark because its intended composition revision
+was abandoned; this distinction does not remove the case or its deliverables.
 
 Browse the full [case-study library](../examples/README.md) or the published
 [gallery](https://sunchaokun.github.io/PPT-Design-Skill/). The Louvre Abu Dhabi
@@ -155,7 +160,6 @@ or PDF.
 <table>
 <tr>
 <td width="33.33%"><a href="https://sunchaokun.github.io/PPT-Design-Skill/viewer.html?project=ai-agent-operating-system"><img src="../examples/site/assets/ai-agent-operating-system/slide01.png" width="100%"></a></td>
-<td width="33.33%"><a href="https://sunchaokun.github.io/PPT-Design-Skill/viewer.html?project=ai-infrastructure-economics"><img src="../examples/site/assets/ai-infrastructure-economics/slide01.png" width="100%"></a></td>
 <td width="33.33%"><a href="https://sunchaokun.github.io/PPT-Design-Skill/viewer.html?project=car-t-single-cell-atlas"><img src="../examples/site/assets/car-t-single-cell-atlas/slide01.png" width="100%"></a></td>
 </tr>
 <tr>

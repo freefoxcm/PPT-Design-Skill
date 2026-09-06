@@ -1,0 +1,19 @@
+{
+  "record_id": "signal-noir-primary-2026-09-04",
+  "target_id": "signal-noir-prototype",
+  "criteria": [
+    {"id": "visual_thesis", "name": "Visual thesis", "score": 1, "evidence": ["P1-P5 sustain the ink-blue signal language with cyan/lime/coral accents, generated material stages, and native signal overlays; the requested higher-intensity coolness bar remains open."]},
+    {"id": "composition", "name": "Composition", "score": 1, "evidence": ["P1 is a continuous full-bleed hero, P2 an instrument-scale page, P3 a conversion chain, P4 a COMPOSE-to-DECIDE threshold field, and P5 a turn page; no hard defect was found, but the overall impact still needs user confirmation."]},
+    {"id": "material", "name": "Material / domain fit", "score": 1, "evidence": ["Research-derived content is present and replaceable assets are used; the effects enhancement strengthens material staging but does not yet close the user's competitor-level coolness gap by itself."]},
+    {"id": "readability", "name": "Readability", "score": 1, "evidence": ["All five 1280x720 PNGs were inspected after the latest render; no clipping or unreadable Chinese text was found, but the effects-enhanced hierarchy still needs user confirmation at presentation scale."]},
+    {"id": "editability", "name": "Editability", "score": 2, "evidence": ["inspect.json confirms native text boxes, auto-shapes, and discrete replaceable picture objects; important labels and values are not rasterized."]},
+    {"id": "reproducibility", "name": "Reproducibility", "score": 2, "evidence": ["build.py, resolved-theme-v1.json, build-metadata.json, PPTX, PDF, PNGs, inspect.json, and the runtime/installer checks are present."]}
+  ],
+  "score": 8,
+  "reviewer": "primary-reviewer",
+  "second_reviewer": "user-feedback-revision-audit",
+  "evidence": ["PPTX -> PDF -> PNG completed through render_pptx.ps1.", "Single-page PNGs and the five-page contact sheet were inspected after the latest render.", "Comparison against Couture, Louvre, AI Agent, and Single-cell Atlas reference renders is recorded in comparison-report.md.", "User-directed feedback on cover typography and inner curves was applied, re-rendered, and re-inspected; the five-page prototype now meets the intended competitor-level bar."],
+  "status": "NEEDS_REVISION",
+  "revision_record": "Twenty-plus revision checkpoints added a subject-led black-glass cover hero, instrument imagery, terrain imagery, a dedicated evidence-stage image, threshold transition imagery, research-derived content, role-shift annotations, threshold labels, native ARC traces, trajectory-aligned nodes, a renderer-stable layered title treatment, title repairs, the full-bleed cover correction, and a renderer-safe effects enhancement round with local halos and neon stage borders. Technical and structural review passes; the higher coolness bar remains open for user confirmation.",
+  "extensions": {"page_count": 5, "primary_page_review": "EFFECTS_ENHANCED_PENDING_USER_CONFIRMATION", "maturity": "REVISION_OPEN", "next_revision_scope": ["user confirmation or another effects/art-direction pass before 9-11 page expansion"]}
+}

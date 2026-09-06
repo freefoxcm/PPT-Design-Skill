@@ -1,0 +1,38 @@
+{
+  "path": "examples\\new_examplex\\car_t_single_cell_paper\\output\\car_t_single_cell_p10_engineering_direction.pptx",
+  "slide_count": 1,
+  "width_inches": 13.333,
+  "height_inches": 7.5,
+  "slides": [
+    {
+      "slide": 1,
+      "shapes": 33,
+      "shape_types": {
+        "AUTO_SHAPE (1)": 12,
+        "TEXT_BOX (17)": 19,
+        "PICTURE (13)": 2
+      },
+      "texts": [
+        "09 / ENGINEERING DIRECTION",
+        "IL-4 provides a preclinical manufacturing direction",
+        "The final figure asks whether a type 2-like program can be primed experimentally and tested in vivo.",
+        "Source: Bai et al., Fig. 6a · priming and ET2-L/H strategies",
+        "EXPOSURE → PRODUCT → TEST",
+        "PRIME",
+        "10 ng ml⁻¹ IL-4\n12 h",
+        "CULTURE",
+        "IL-7 + IL-15\nET2-L 10 / ET2-H 50",
+        "TEST",
+        "expansion +\nsurvival",
+        "DOSE COMPARISON",
+        "Primed: 10 ng ml⁻¹ IL-4 for 12 h\nET2-L: 10 ng ml⁻¹ · ET2-H: 50 ng ml⁻¹\nsame culture context: IL-7 + IL-15",
+        "Fig. 6c–d · expansion and survival",
+        "BOUNDARY",
+        "promising lever, still preclinical",
+        "Source: Bai et al., Fig. 6. Concentrations and ET2-L/H labels remain tied to the paper; engineering framing is editorial.",
+        "10 / 12",
+        "PAPER 03"
+      ]
+    }
+  ]
+}
