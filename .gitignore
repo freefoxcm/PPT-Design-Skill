@@ -9,6 +9,7 @@ __pycache__/
 examples/output/
 output/
 render_*/
+ppt_tasks/
 
 # Keep only the final rendered artifacts for the reproducible evaluation set.
 evals/*/output/
