@@ -19,6 +19,7 @@ window.PPT_CASES = [
     subtitle: '数据编辑型 · 资本、算力与物理堆栈',
     category: '数据叙事',
     year: '2026',
+    status: '案例保留 · 非正式 benchmark',
     direction: '纸张与基础设施账本',
     mode: 'Build Mode',
     description: '一组面向战略与平台运营者的来源型数据研究，以纸张质感、层级色彩和物理约束隐喻组织复杂的基础设施叙事。',

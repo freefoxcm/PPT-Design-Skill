@@ -302,7 +302,7 @@ def p6(prs):
     p6_tx(slide, 8.95, 6.13, 1.88, 0.46, "7,500 T", 24.0, "dark", "Arial Narrow")
     p6_tx(slide, 10.78, 6.31, 1.16, 0.12, "DOME WEIGHT", 6.5, "muted", "Arial Narrow", True)
     p6_tx(slide, 0.66, 6.91, 3.52, 0.12, "SOURCE  /  LOUVRE ABU DHABI — ARCHITECTURE", 6.0, "muted", "Arial Narrow", True)
-    p6_tx(slide, 12.00, 6.79, 0.50, 0.34, "06", 20.0, "pale", "Georgia", False, "right")
+    p6_tx(slide, 12.00, 6.72, 0.65, 0.48, "06", 20.0, "pale", "Georgia", False, "right")
     return result.shape_count
 
 
@@ -328,7 +328,7 @@ def p7(prs):
     p6_tx(slide, 4.54, 6.33, 2.55, 0.12, "02  /  CITY + SEA", 6.8, "silver", "Arial Narrow", True)
     p6_tx(slide, 8.38, 6.33, 2.75, 0.12, "03  /  CIVIC WATERROOM", 6.8, "silver", "Arial Narrow", True)
     p6_tx(slide, 0.66, 6.93, 4.02, 0.12, "THREE ATMOSPHERES, ONE CONTINUOUS ROOF.", 6.5, "gold", "Arial Narrow", True)
-    p6_tx(slide, 12.01, 6.76, 0.50, 0.34, "07", 20.0, "#48626B", "Georgia", False, "right")
+    p6_tx(slide, 12.00, 6.65, 0.65, 0.55, "07", 20.0, "#48626B", "Georgia", False, "right")
 
 
 def p8(prs):
@@ -347,7 +347,7 @@ def p8(prs):
     p6_tx(slide, 8.39, 5.34, 3.37, 0.12, "4 STAINLESS STEEL / 4 ALUMINIUM", 6.8, "muted", "Arial Narrow", True)
     p6_tx(slide, 8.36, 5.90, 3.86, 0.28, "The roof permits daylight\nwithout excessive heat or wind.", 7.5, "muted", "Arial")
     p6_tx(slide, 0.66, 7.08, 3.52, 0.12, "SOURCE  /  LOUVRE ABU DHABI — ARCHITECTURE", 6.0, "muted", "Arial Narrow", True)
-    p6_tx(slide, 12.01, 6.99, 0.50, 0.34, "08", 20.0, "pale", "Georgia", False, "right")
+    p6_tx(slide, 12.00, 6.65, 0.65, 0.55, "08", 20.0, "pale", "Georgia", False, "right")
 
 
 def p9(prs):
@@ -360,7 +360,7 @@ def p9(prs):
     p6_tx(slide, 0.70, 4.32, 3.7, 0.36, "A museum-city that belongs to its geography\nwithout becoming a literal interpretation of it.", 8.6, "silver", "Arial")
     p6_tx(slide, 0.70, 5.68, 2.95, 0.12, "JEAN NOUVEL  /  ARCHITECT", 6.8, "gold", "Arial Narrow", True)
     p6_tx(slide, 0.70, 6.93, 3.85, 0.12, "SOURCE  /  LOUVRE ABU DHABI — ARCHITECTURE", 6.0, "silver", "Arial Narrow", True)
-    p6_tx(slide, 12.00, 6.79, 0.50, 0.34, "09", 20.0, "#46616A", "Georgia", False, "right")
+    p6_tx(slide, 12.00, 6.65, 0.65, 0.55, "09", 20.0, "#46616A", "Georgia", False, "right")
     return result.shape_count
 
 
@@ -379,7 +379,7 @@ def p10(prs):
     p6_tx(slide, 8.74, 4.01, 3.07, 0.38, "A common sky turns architecture\ninto a public cultural landscape.", 8.9, "silver", "Arial Narrow", True)
     result = p6_svg(slide, p6_LIGHT_ROUTE, 8.46, 5.02, 3.82, 1.15)
     p6_tx(slide, 8.74, 6.63, 2.08, 0.12, "END OF STUDY", 6.7, "gold", "Arial Narrow", True)
-    p6_tx(slide, 12.01, 6.76, 0.50, 0.34, "10", 20.0, "#48626B", "Georgia", False, "right")
+    p6_tx(slide, 12.00, 6.65, 0.65, 0.55, "10", 20.0, "#48626B", "Georgia", False, "right")
     return result.shape_count
 
 
@@ -419,7 +419,7 @@ def add_p2(prs):
     result = svg_chart(slide, p2_LIGHT_TRACE, x=0.62, y=4.86, w=2.02, h=1.52, C=C)
     p2_tx(slide, 0.63, 6.63, 1.9, 0.12, "LOUVRE ABU DHABI", 6.6, "muted", "Arial Narrow", True)
     p2_tx(slide, 0.63, 6.89, 1.9, 0.12, "JEAN NOUVEL  /  2017", 6.6, "muted", "Arial Narrow", True)
-    p2_tx(slide, 2.25, 6.51, 0.52, 0.45, "02", 28.0, "pale", "Georgia", False, "right")
+    p2_tx(slide, 2.18, 6.40, 0.72, 0.58, "02", 28.0, "pale", "Georgia", False, "right")
     return result.shape_count
 
 

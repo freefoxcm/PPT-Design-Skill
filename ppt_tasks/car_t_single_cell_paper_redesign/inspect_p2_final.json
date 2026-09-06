@@ -1,0 +1,55 @@
+{
+  "path": "examples\\new_examplex\\car_t_single_cell_paper\\output\\car_t_single_cell_p02_clinical_signal.pptx",
+  "slide_count": 1,
+  "width_inches": 13.333,
+  "height_inches": 7.5,
+  "slides": [
+    {
+      "slide": 1,
+      "shapes": 54,
+      "shape_types": {
+        "AUTO_SHAPE (1)": 17,
+        "TEXT_BOX (17)": 37
+      },
+      "texts": [
+        "01 / CLINICAL SIGNAL",
+        "The clinical question is persistence—not merely response",
+        "Before asking what the cell is, establish how long its clinical phenotype remains visible.",
+        "CLINICAL CONTEXT",
+        "≈50%",
+        "relapse within the first year",
+        "Durable remission is the exception that\nthe atlas tries to explain.",
+        "WHAT IS MEASURED",
+        "B-cell aplasia (BCA) duration\n→ clinical persistence axis\n→ BCA-L = longest-remission group",
+        "REPORTED BCA STRATA / MONTHS AFTER INFUSION",
+        "0",
+        "infusion",
+        "1",
+        "BCA1",
+        "4",
+        "BCA2",
+        "18",
+        "BCA3",
+        "61",
+        "BCA-O",
+        "101",
+        "BCA-L",
+        "The duration axis is ordered, not a fitted continuous curve.",
+        "OBSERVATION",
+        "long B-cell aplasia",
+        "NEXT QUESTION",
+        "what sustains it?",
+        "BCA-L",
+        "8.4",
+        "years",
+        "median duration",
+        "n = 5",
+        "READING RULE",
+        "Clinical persistence is the entry point, not the mechanism.",
+        "Source: Bai et al., Nature 634, 702–711 (2024), Fig. 1c; background relapse context from the paper abstract.",
+        "2 / 12",
+        "PAPER 03"
+      ]
+    }
+  ]
+}

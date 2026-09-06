@@ -35,6 +35,35 @@ persistence page and P2 study-design pipeline into the full 12-page deck.
 ## QA evidence
 
 - PPTX structural inspection: 12 slides, 16:9, expected picture/text/shape mix;
-- PPTX → PDF → PNG render: `rendered-blue-final4/slide01.png` through `slide12.png`;
+- PPTX → PDF → PNG render: `rendered/slide01.png` through `slide12.png`;
 - All 12 PNGs visually reviewed at 1280 × 720 after the final merge; slides 6
   and 11 were rechecked after removing the rectangular evidence containers.
+- Revision 5: P03 output metric spacing was corrected after review found the
+  `695,819` value touching the `analyzed cells` label; the PPTX was regenerated,
+  re-rendered, and P03 was visually rechecked.
+
+## Acceptance Record pre-review — Revision 6
+
+The full 12-page PNG set was reviewed against the acceptance contract. No hard
+overflow, page-number defect, accidental clipping, or evidence-boundary breach
+was found. The primary content audit also reconciled the headline cohort and
+intervention facts against Bai et al., *Nature* 634, 702–711 (2024).
+
+| Page | Primary evidence check | Visual disposition |
+|---|---|---|
+| 01 | Cover states the paper, journal, year, and clinical persistence premise. | PASS; conceptual cover is clearly marked. |
+| 02 | `8.4 years` is tied to the BCA-L clinical persistence group. | PASS; clinical observation is separated from mechanism. |
+| 03 | `82 patients + 6 healthy donors`, `695,819 cells`, and `17 states` are shown with the study pipeline. | PASS; pipeline is legible and editable. |
+| 04 | Fig. 1 UMAP and cluster annotation are retained; original figure citation is visible. | TARGETED READABILITY CHECK; dense labels are legible only at presentation scale after zoom. |
+| 05 | Five BCA persistence groups and BCA-L `n = 5` are separated from the interpretation. | PASS; duration units and source note are visible. |
+| 06 | Fig. 2 evidence supports type-2 signature, secretion, chromatin, and perturbation framing. | TARGETED READABILITY CHECK; multiple cropped panels make this the densest page. |
+| 07 | Fig. 3 ligand–receptor result and `13.9%` cluster-2 context are framed as a proposed mechanism. | PASS; causal wording remains bounded. |
+| 08 | Fig. 4 serum profiling is labeled with `345 measurements`, `30 cytokines`, and `33 patients`. | TARGETED READABILITY CHECK; figure labels/caption need second-reviewer confirmation. |
+| 09 | Fig. 5 mouse expansion, rechallenge, and survival are explicitly labeled preclinical. | PASS; no clinical efficacy claim. |
+| 10 | Fig. 6 IL-4 priming/manufacturing conditions and ET2-L/H groups are labeled as design options. | TARGETED READABILITY CHECK; small experimental labels need second-reviewer confirmation. |
+| 11 | Association → cellular state → proposed mechanism → preclinical test is separated in an evidence chain. | PASS; evidence levels are explicit. |
+| 12 | Contribution and boundary are stated without extending the paper beyond its evidence. | PASS; final takeaway is appropriately bounded. |
+
+Current primary-review conclusion: `BLOCKED` pending second Reviewer review of
+P01, the four targeted-readability pages (04/06/08/10), and all MUST rows. This
+is a controlled review state, not a claim that the deck is already signed off.

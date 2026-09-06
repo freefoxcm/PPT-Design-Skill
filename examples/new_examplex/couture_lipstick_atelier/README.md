@@ -14,6 +14,9 @@ brand or presenting fabricated commercial claims.
   reviewed export.
 - `brief.md`, `page-plan.md`, `visual-direction.md`, and
   `acceptance-contract.md` — design rationale and verification scope.
+- `theme-lock.yaml` — resolved benchmark tokens and forbidden patterns.
+- `design-baseline.md` — transferable page-role and composition rules.
+- `acceptance-record.json` — latest structural and visual QA record.
 
 ## Rebuild
 

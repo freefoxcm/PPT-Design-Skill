@@ -1,0 +1,19 @@
+{
+  "record_id": "primary-high-line-public-realm-2026-09-04",
+  "target_id": "high-line-public-realm",
+  "criteria": [
+    {"id":"visual_thesis","name":"Visual thesis","score":2,"evidence":["Ten pages sustain the urban-reuse system: dark cover, warm paper field, brick/blue/green operating accents, and infrastructure-to-public-realm thesis."]},
+    {"id":"composition","name":"Composition","score":2,"evidence":["Timeline, elevated section, systems map, native comparison chart, collaboration field, operating loop, transfer matrix, and decision close are distinct architectures."]},
+    {"id":"material","name":"Material / domain fit","score":2,"evidence":["Facts are tied to Friends of the High Line materials; editorial analysis and transfer hypotheses are visibly labeled."]},
+    {"id":"readability","name":"Readability","score":2,"evidence":["All 10 rendered pages were inspected at 1280x720; the initial 1.45 label-wrap defect was fixed and rechecked."]},
+    {"id":"editability","name":"Editability","score":2,"evidence":["The deck is built from native text, rectangles, lines, arrows, and ovals; no page is a single rasterized image."]},
+    {"id":"reproducibility","name":"Reproducibility","score":2,"evidence":["New brief, build.py, PPTX, PDF/PNG renders, and inspection output are stored under examples/new_case_high_line."]}
+  ],
+  "score":12,
+  "reviewer":"primary-reviewer",
+  "second_reviewer":"PENDING",
+  "evidence":["This is a newly authored real-project case based on official Friends of the High Line materials, not an existing repository case rerun.","Primary visual review completed after one corrective iteration; second-reviewer sign-off remains pending."],
+  "status":"BLOCKED",
+  "revision_record":"Initial build produced two visible defects: a wrapped 1.45 label and a malformed return arrow. Both were corrected and the full 10-page render was rechecked.",
+  "extensions":{"page_score_status":"PRIMARY_PAGE_SCORES_RECORDED","must_status":"PROVISIONAL_ONLY","second_review_scope":["slides 1, 6, 8, 9, 10","all MUST rows"]}
+}

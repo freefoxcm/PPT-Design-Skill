@@ -1,0 +1,10 @@
+{
+  "task_id": "ac2c992b-a872-49ed-a3b0-87f93cb9e8e8",
+  "task_name": "ai_agent_operating_system_visual_direction",
+  "skill": "ppt-design-skill",
+  "skill_version": "1.3",
+  "template_source": "skill/templates/task-init",
+  "project_root": "E:\\PPT-Design-Skill-V2",
+  "task_root": "E:\\PPT-Design-Skill-V2\\ppt_tasks\\ai_agent_operating_system_visual_direction",
+  "created_at": "2026-09-05T07:17:42.124457+00:00"
+}

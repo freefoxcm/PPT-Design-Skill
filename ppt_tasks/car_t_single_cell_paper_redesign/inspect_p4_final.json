@@ -1,0 +1,43 @@
+{
+  "path": "examples\\new_examplex\\car_t_single_cell_paper\\output\\car_t_single_cell_p04_cell_atlas.pptx",
+  "slide_count": 1,
+  "width_inches": 13.333,
+  "height_inches": 7.5,
+  "slides": [
+    {
+      "slide": 1,
+      "shapes": 42,
+      "shape_types": {
+        "AUTO_SHAPE (1)": 17,
+        "TEXT_BOX (17)": 24,
+        "PICTURE (13)": 1
+      },
+      "texts": [
+        "03 / CELL ATLAS",
+        "The atlas resolves one cohort into 17 measurable cell states",
+        "The UMAP is not the conclusion; it is the map used by every later comparison.",
+        "Source: Bai et al., Fig. 1b · selected UMAP / cluster annotation",
+        "HOW TO READ THE MAP",
+        "Each numbered region is a cell state.\nSpatial proximity suggests a state landscape—not a causal pathway.",
+        "FOUR STATE FAMILIES",
+        "NAIVE",
+        "memory / early",
+        "CYTOTOXIC",
+        "effector program",
+        "REGULATORY",
+        "signalling program",
+        "PROLIFERATIVE",
+        "expansion program",
+        "ANALYSIS LOGIC",
+        "map",
+        "cluster",
+        "states",
+        "BCA",
+        "17",
+        "cell states",
+        "4 / 12",
+        "PAPER 03"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "record_id": "primary-technical-infrastructure-2026-09-04",
+  "target_id": "technical-infrastructure",
+  "criteria": [
+    {"id": "visual_thesis", "name": "Visual thesis", "score": 2, "evidence": ["Slides 1-12 sustain the warm paper, cobalt evidence, vermilion constraint, and green operating-leverage system."]},
+    {"id": "composition", "name": "Composition", "score": 0, "evidence": ["The intended composition revision was abandoned after production failure; the current output cannot be accepted as proof that the repeated dashboard grammar was replaced."]},
+    {"id": "material", "name": "Material / domain fit", "score": 1, "evidence": ["The infrastructure content is domain-specific, but the unresolved composition failure weakens the intended premium editorial data language."]},
+    {"id": "readability", "name": "Readability", "score": 2, "evidence": ["Independent review checked P01, P02, P05, P06, P08, P09, P10, and P11 at 1280x720; no clipping or text collision was found."]},
+    {"id": "editability", "name": "Editability", "score": 1, "evidence": ["Structural inspection shows native text boxes and auto-shapes across all slides; the objects are editable, but the abandoned composition revision remains unresolved."]},
+    {"id": "reproducibility", "name": "Reproducibility", "score": 2, "evidence": ["PPTX, PDF, PNG renders, controls.json, and the independent baseline pair are present; pair audit reports 12/12 pages."]}
+  ],
+  "score": 8,
+  "reviewer": "primary-reviewer",
+  "second_reviewer": "independent-second-reviewer-2026-09-06",
+  "evidence": ["Primary and independent review inspected P01, P02, P05, P06, P08, P09, P10, and P11 at 1280x720.", "The intended composition replacement was not successfully produced and was abandoned; visual inspection cannot promote the current output to a composition PASS.", "The acceptance contract now records R7 as NEEDS_REVISION rather than claiming evidence that does not exist."],
+  "status": "BLOCKED",
+  "revision_record": "Second Reviewer correction: the earlier composition-pass interpretation was invalid because the revised composition was abandoned after production failure. Keep the case blocked until a successful regenerated deck is rendered and reviewed.",
+  "extensions": {"page_score_status": "PRIMARY_AND_SECOND_REVIEW_RECORDED", "page_scores": [{"page":1,"score":2,"note":"Strong cover hierarchy; no collision."},{"page":2,"score":1,"note":"Stack is clear, but the dependency annotation remains a composition risk."},{"page":3,"score":2,"note":"Source-led composition and editable bar field are clear."},{"page":4,"score":2,"note":"Capital composition is legible and source-bounded."},{"page":5,"score":0,"note":"Intended composition revision was abandoned; no accepted replacement evidence."},{"page":6,"score":1,"note":"Flywheel is understandable but remains part of the unresolved composition revision."},{"page":7,"score":2,"note":"Illustrative curves are labeled and separated from claims."},{"page":8,"score":0,"note":"Intended composition revision was abandoned; no accepted replacement evidence."},{"page":9,"score":2,"note":"Four fields are semantic risk-matrix quadrants."},{"page":10,"score":2,"note":"Native buy/rent/build comparison is aligned."},{"page":11,"score":1,"note":"Scorecard remains under the unresolved composition review."},{"page":12,"score":2,"note":"Operator close is clear and bounded."}],"must_status":"R7_NEEDS_REVISION_OTHER_MUST_PROVISIONAL","second_review_scope":["slide 1","P01","slides 2, 6, and 11","all MUST rows"]}
+}

@@ -4,7 +4,7 @@ PPT Design Skill is a brief-first presentation design workflow powered
 by the published [`pptx-designer`](https://pypi.org/project/pptx-designer/)
 Python library.
 
-Current release: `1.1`
+Current release: `1.4`
 
 The library generates the editable PPTX. The skill is responsible for the
 design process and quality gate:
@@ -74,7 +74,7 @@ only when you explicitly want winget to install LibreOffice and Poppler.
 |---|---|---|
 | Build Mode | Delivery-grade blank-canvas composition | Python + public `pptx_designer.tools.*` |
 | FreeStyle Mode | Fast exploration or goal-driven generation | `generate_ppt(query=...)` or `generate_ppt(content=...)` |
-| VI Build Mode | Existing template and enterprise brand compliance | Template + `extract_design_dna()` + controlled new pages |
+| VI Build Mode | Existing template and enterprise brand compliance | `extract_design_context()` + atomic Build + `VIBuildDelivery` |
 
 ### Build Mode
 
@@ -91,8 +91,9 @@ provides pixel-level element placement.
 ### VI Build Mode
 
 Use VI Build when the user supplies a corporate template or requires brand
-compliance. Analyze the template, extract design DNA, preserve framework pages,
-add content pages using the template's visual system, and review the complete
+compliance. Extract deterministic evidence with `extract_design_context()`,
+confirm framework pages and writable slots, build content pages with
+`compile_atomic()`, finalize with `VIBuildDelivery`, and review the complete
 deck through PPTX -> PDF -> PNG. Read
 [template-brand.md](../skill/references/template-brand.md).
 
@@ -130,9 +131,10 @@ the deck “looks good” is not sufficient.
 
 ## Reviewed case studies
 
-The repository maintains six complete, reviewed case studies. Each package
-includes a reproducible source, editable PPTX, PDF export, PNG review evidence,
-and a written visual-direction and acceptance record.
+The repository maintains six complete case studies. Five are approved as formal
+design benchmarks. Each package includes a reproducible source, editable PPTX,
+PDF export, PNG review evidence, and a written visual-direction and acceptance
+record. The benchmark set is intentionally smaller than the full case library.
 
 | Case | Pages | Design domain |
 |---|---:|---|
@@ -142,6 +144,10 @@ and a written visual-direction and acceptance record.
 | Louvre Abu Dhabi | 10 | Architecture and culture |
 | Vertical City Retrofit | 14 | Urban strategy |
 | COUTURE COLOR — Objects of Desire | 10 | Luxury beauty editorial |
+
+AI Infrastructure Economics remains a complete case in the library. It is not
+part of the formal design benchmark because its intended composition revision
+was abandoned; this distinction does not remove the case or its deliverables.
 
 Browse the full [case-study library](../examples/README.md) or the published
 [gallery](https://sunchaokun.github.io/PPT-Design-Skill/). The Louvre Abu Dhabi
@@ -154,7 +160,6 @@ or PDF.
 <table>
 <tr>
 <td width="33.33%"><a href="https://sunchaokun.github.io/PPT-Design-Skill/viewer.html?project=ai-agent-operating-system"><img src="../examples/site/assets/ai-agent-operating-system/slide01.png" width="100%"></a></td>
-<td width="33.33%"><a href="https://sunchaokun.github.io/PPT-Design-Skill/viewer.html?project=ai-infrastructure-economics"><img src="../examples/site/assets/ai-infrastructure-economics/slide01.png" width="100%"></a></td>
 <td width="33.33%"><a href="https://sunchaokun.github.io/PPT-Design-Skill/viewer.html?project=car-t-single-cell-atlas"><img src="../examples/site/assets/car-t-single-cell-atlas/slide01.png" width="100%"></a></td>
 </tr>
 <tr>
@@ -208,9 +213,11 @@ pipeline:
 
 ```python
 from pptx_designer import generate_ppt
+from pptx_designer.renderer.theme import ThemeComposer
 
 # Topic-driven draft
-generate_ppt("AI startup pitch", style="professional", output="output/pitch.pptx")
+theme = ThemeComposer().compose(style="professional", seed=17)
+generate_ppt("AI startup pitch", theme=theme, output="output/pitch.pptx")
 
 # Content-driven draft
 generate_ppt(
@@ -221,7 +228,7 @@ generate_ppt(
             {"goal": "data", "title": "Key metrics", "bullets": ["Revenue: $12M"]},
         ],
     },
-    style="professional",
+    theme=theme,
     output="output/review.pptx",
 )
 ```
