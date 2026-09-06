@@ -11,6 +11,14 @@ output/
 render_*/
 ppt_tasks/
 research_competitor_ppt_styles/
+docs/regression_acceptance/
+docs/case-prototype-readiness.md
+docs/regression-readiness.md
+docs/visual-capability-api-matrix.md
+docs/visual-capability-blocker-remediation-plan.md
+docs/visual-capability-execution-plan.md
+docs/visual-design-capability-implementation-plan.md
+docs/visual-design-capability-upgrade.md
 
 # Keep only the final rendered artifacts for the reproducible evaluation set.
 evals/*/output/

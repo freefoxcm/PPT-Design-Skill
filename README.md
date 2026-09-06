@@ -421,8 +421,7 @@ PPT-Design-Skill/
 │   └── scripts/
 ├── docs/
 │   ├── README_EN.md
-│   ├── usage-guide.md
-│   └── regression_acceptance/
+│   └── usage-guide.md
 ├── examples/new_examplex/
 │   └── six maintained case-study packages
 ├── installer/
