@@ -1,18 +1,33 @@
 # PPT Design Skill
 
-PPT Design Skill is a brief-first presentation design workflow powered
+PPT Design Skill is a brief-first presentation design and delivery-quality workflow powered
 by the published [`pptx-designer`](https://pypi.org/project/pptx-designer/)
 Python library.
 
-Current release: `1.4`
+Current release: `1.5`
 
-The library generates the editable PPTX. The skill is responsible for the
-design process and quality gate:
+`pptx-designer` turns design decisions into an editable PPTX. This skill is
+responsible for the design decisions and delivery process: confirming the
+brief, shaping the narrative and page structure, coaching and locking the
+visual direction, and verifying the rendered result before delivery.
 
 ```text
-brief -> page structure -> visual direction -> build -> PPTX -> PDF -> PNG ->
-LLM visual review -> revision -> user confirmation -> delivery
+brief confirmation
+  -> domain judgment and page structure
+  -> visual direction proposal and user confirmation
+  -> design tokens and page anchors locked
+  -> pptx-designer generates editable PPTX
+  -> PPTX -> PDF -> PNG
+  -> Gate 1: overall visual effect and client-ready finish
+  -> Gate 2: serious defects, requirements, and editability
+  -> source/content rework and re-render
+  -> user confirmation and delivery
 ```
+
+Technical success is not design completion. The skill reads the exported PNGs
+directly and checks for a clear focal point, appropriate density, hierarchy,
+complete composition, and a result that fits the user's needs. A successful
+Python run or an existing PPTX file cannot substitute for this visual review.
 
 ## Choose the right mode
 
@@ -113,8 +128,12 @@ Do not claim completion because the Python script ran or a PPTX file exists.
 Always export the confirmed PPTX -> PDF -> PNG path, inspect every rendered
 slide, revise material visual issues, and obtain user confirmation.
 
-The visual review is performed by the LLM reading the PNGs. The skill does not add a
-separate visual scoring service.
+The visual review is performed by the LLM reading the PNGs. The skill does not
+add a separate visual scoring service. Gate 1 asks whether each page has a
+visual center, clear hierarchy, purposeful density and whitespace, complete
+composition, and client-ready finish. Gate 2 checks overflow, clipping,
+overlap, unreadable text, missing requirements, unsupported claims, broken
+citations, editability, and other delivery risks.
 
 Before generation, convert the user's brief into a small acceptance contract.
 After rendering, compare every `MUST` condition with visible evidence in the

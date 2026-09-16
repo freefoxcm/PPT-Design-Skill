@@ -6,12 +6,13 @@
 
 <p align="center"><strong>原生可编辑 · 视觉设计驱动</strong></p>
 
-一个以设计流程为核心的 PowerPoint skill。PPTX 的实际生成由已发布的
+一个以设计决策和交付质量为核心的 PowerPoint skill。PPTX 的实际生成由已发布的
 [`pptx-designer`](https://pypi.org/project/pptx-designer/) Python 标准库
-负责；skill 负责需求确认、结构设计、视觉方案、生成编排和最终视觉验收。
+负责；本 Skill 负责需求确认、结构设计、视觉方案、生成编排、PNG 视觉验收
+以及返工交付。
 
 <p align="center">
-  <img src="https://img.shields.io/badge/version-1.4-111827?style=flat-square" alt="Version 1.4">
+  <img src="https://img.shields.io/badge/version-1.5-111827?style=flat-square" alt="Version 1.5">
   <img src="https://img.shields.io/badge/engine-pptx--designer-2563EB?style=flat-square" alt="pptx-designer engine">
   <img src="https://img.shields.io/badge/output-PPTX%20%7C%20PDF%20%7C%20PNG-C2414C?style=flat-square" alt="PPTX PDF PNG output">
 </p>
@@ -53,7 +54,7 @@ FreeStyle 的 `generate_ppt(query=...)` 和
   必须服从现有模板时，才选择 FreeStyle 或 VI Build Mode。
 </div>
 
-## Skill 的核心价值
+## Skill 的核心价值：保证设计决策与交付质量
 
 `pptx-designer` 负责把设计决策生成成可编辑 PPTX；本 Skill 负责保证设计
 决策和交付过程的质量：
@@ -72,30 +73,9 @@ FreeStyle 的 `generate_ppt(query=...)` 和
 ```
 
 技术上“运行成功”不等于设计完成。Skill 会直接检查导出的 PNG，判断页面
-是否有视觉重心、合理密度、清晰层级、完整构图和符合用户需求的设计效果。
-
----
-
-## 核心理念
-
-这不是“一句话生成 PPT”的包装层，而是一套设计交付流程：
-
-```text
-用户需求确认
-  → PPT 结构设计
-  → 视觉方案设计
-  → 用户确认方向
-  → pptx-designer 生成 PPTX
-  → PPTX → PDF → PNG
-  → LLM 逐页视觉检查
-  → 代码/内容修订
-  → 再次渲染检查
-  → 用户确认最终效果
-  → 交付
-```
-
-PPTX 文件成功生成、Python 没有报错、shape 数量正常，都不能代替 PNG
-视觉检查。
+是否有视觉重心、合理密度、清晰层级、完整构图，以及是否真正符合用户需求。
+只有通过两道门并完成必要返工，才进入用户确认与交付：第一门检查整体视觉
+效果与客户级完成度；第二门检查严重缺陷、需求覆盖和可编辑性。
 
 生成前，LLM 会把用户需求整理成可追踪的视觉验收合同；生成 PNG 后，逐项
 对照需求和页面证据，记录 `PASS`、`NEEDS_REVISION` 或 `BLOCKED`。因此 PNG
@@ -217,7 +197,7 @@ powershell -ExecutionPolicy Bypass -File skill/scripts/render_pptx.ps1 `
 
 1. 用户先确认需求和受众；
 2. LLM 先设计页面结构和视觉方向；
-3. `pptx-designer` 生成可编辑 PPTX；
+3. `pptx-designer` 把已确认的设计决策生成成可编辑 PPTX；
 4. 通过确认过的 PPTX -> PDF -> PNG 路径导出页面；
 5. LLM 直接查看 PNG，逐页判断是否达到设计要求；
 6. 发现问题后回到 Python 源码或内容进行修订；
